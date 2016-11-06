@@ -1,63 +1,268 @@
 body{
 	background-color: #FAFAFA;
 }
-#menu{
-	list-style: none;
-	position: fixed;
-	background-color:#FFFFFF;
-	border: 1px solid #DBDBDB;
-	padding:0;margin:0;
 
-}
-.photo{
-	height:300px;
-	width:300px;
-}
-#presentation{
-	height:300px;
-	margin-left:70px;
-	margin-right: 70px;
-	font-size:30px;
-	margin-top: 100px;
-}
-#presentationphoto{
-	width: 25%;
-	display:inline-block;
-}
-#presentationtexte{
-	width:50%;
-	display:inline-block;
-}
-#presentationbouton{
-	width:10%;
-	display:inline-block;
-}
-.bouton{
-	height:30%;
-	width:70%;
-	margin-left:70px;
+/*barre de menu */
+.icon {
+	width: 30px;
+	height: 30px;
+
 }
 nav li {
 	display:inline;
 	list-style:none;
-	margin-left:70px;
-	font-size:30px;
-	margin-top:200px;
+	margin-left:60px;
+	margin-top:40px;
 }
+
+.container-fluid{
+	background-color:#FFFFFF;
+	border: 1px solid #DBDBDB;
+	padding:0;
+	margin:0;	
+}
+
+
+/*fin barre de menu*/
+
+/*encart présentation*/
+#photoprofil{
+	width:125%;
+}
+#presentation{
+	padding-top:1em; 
+	padding-bottom:1em;
+}
+.presentationgauche{
+	font-size:30px;
+}
+
+/* PRESENTATION MILIEU */
+.presentationmilieu{
+	font-size:30px;
+	text-align: left;
+	font-style: normal;
+}
+.presentationmilieu p{
+	font-size: 20px;
+}
+
 .soustitre{
 	display:inline;
 	list-style:none;
-	font-size:10px;
+	font-size:15px;
 	margin-left:10px;
+	line-height : 0px;
+	text-align: left;
+	font-style: italic;
 }
-#galerie{
-	margin-left:50px;
-	margin-right:50px;
-	margin-top: 100px;
+/* FIN PRESENTATION MILIEU */
+
+/* PRESENTATION DROITE */
+.presentationdroite{
+	top : 100%;
+	height:300px;
+	font-size: 30px;
+}
+#presentation .bouton-mail{
+	border-radius: 10px 10px 10px 10px;
+	border: 2px solid #3897F0;
+	background-color: #FAFAFA;
+	text-decoration: none;
+	font-size: 20px;
+	padding:15px;
+	font-weight: bold;
+}
+#presentation .bouton-mail:hover{
+	text-decoration: none;
+	opacity: 0.5;
+}
+#presentation .bouton-agenda{
+	border-radius: 10px 10px 10px 10px;
+	border: 2px solid #3897F0;
+	background-color: #FAFAFA;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 15px;
+	font-weight: bold;
+}
+#presentation .bouton-agenda:hover{
+	text-decoration: none;
+	opacity: 0.5;
+}
+
+#presentation .bouton-quisuisje{
+	border-radius: 10px 10px 10px 10px;
+	background-color: #FAFAFA;
+	border-color: #3897F0;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 15px;
+	font-weight: bold;
+}
+#presentation .bouton-quisuisje:hover{
+	text-decoration: none;
+	opacity: 0.5;
+}
+#bouton-quisuisje p{
+	text-align: center;
+}
+/*fin de l'encart présentation*/
+
+
+/* La galerie photos */
+
+#galerieligne1{
 	font-size:30px;
+	margin-top: 100px;
+	width:100%;
 }
-.photos{
-	width:12%;
-	display: inline-block;
+#galerieligne2{
+	font-size:30px;
+	margin-top: 30px;
+	width:100%;
+}
+#galerieligne3{
+	font-size:30px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	width:100%;
+}
+
+#image7 {
+	width: 500px;
+	height: 350px;
+}
+#image8 {
+	width: 500px;
+	height: 350px;
+}
+#image9 {
+	width: 500px;
+	height: 350px;
+}
+/* fin de la galerie photos */
+
+/* POP UP */
+/* arriver à redimmensionner le bouton à la taille de l'image*/
+#boutonexperience{
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height: 100%;
+    background-color: white;
+    padding: 0px;
+}
+#boutoncompetences{
+	border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height: 100%;
+    background-color: white;
+    padding: 0px;
+}
+#boutonformation{
+	border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height: 100%;
+    background-color: white;
+    padding: 0px;
+}
+#boutonexperience .col-md-4{
+	width:100%;
+}
+#boutoncompetences .col-md-4{
+	width:100%;
+}
+#boutonformation .col-md-4{
+	width:100%;
+}
+/* fin des POP UP */
+
+/*footer*/
+#footer{
+
+}
+.col-md-12{
+	background-color: white;
+	border: 1px solid #DBDBDB;
 	text-align:center;
 }
+#footer li{
+	list-style-type: none;
+	text-decoration:none;
+	display:inline-block;
+	padding:20px 60px 20px 60px;
+	font-family: Cookie, cursive;
+	font-size: 20px;
+	color:#262626;
+	width: 20%;
+}
+.facebookpage:hover{
+	text-decoration: none;
+	opacity: 0.5;
+}
+.instagrampage:hover{
+	text-decoration: none;
+	opacity: 0.5;
+}
+.linkedinpage:hover{
+	text-decoration: none;
+	opacity: 0.5;
+}
+.footercoupsdecoeur:hover{
+	text-decoration: none;
+	opacity: 0.5;
+}
+#footer .form-group{
+	font-family: Hind, sans-serif;
+	font-size: 20px;
+	display:inline-block;
+}
+form .container{
+	text-align:center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+
+
+
+/* responsive */
+@media (max-width:767px) {  /*small mobile*/
+  h2 {
+    font-size:20px;
+  }
+  p{
+  	font-size:14px;
+  }
+}
+@media (min-width:768px) and (max-width:1199px) {  /*tablet*/
+  h2 {
+    font-size:30px; 
+  }
+  p{
+  	font-size:20px;
+  }
+}
+@media (min-width:1200px) and (max-width:1599px) {  /*desktop*/
+  h2 {
+    font-size:40px;
+  }
+  p{
+  	font-size:26px;
+  }
+}
+@media (min-width:1600px) {  /*desktop and tv*/
+  h2 {
+    font-size:60px;
+  }
+  p{
+  	font-size:40px;
+  }
+}
+/* fin du responsive */

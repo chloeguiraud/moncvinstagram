@@ -1,45 +1,301 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<meta http-equiv = "content-type" content = "text/html; charset=utf-8" />
-	<link href="https://fonts.googleapis.com/css?family=Cookie|Hind:300"; rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
 	<title>Chloe cherche un boulot</title>
+	<!-- Latest compiled and minified CSS -->
+	<link href="https://fonts.googleapis.com/css?family=Cookie|Hind:300"; rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
-	<nav id="menu">
-		<ul>
-			<li><img src="/Users/chloe/Desktop/moncvinstagram/images/instagram-logo.png" class="icon" alt="icones menu - gallerie photos"/></li>
-			<li style="font-family:Cookie, cursive; font-size: 70px">Chloé</li>
-			<li><img src="/Users/chloe/Desktop/moncvinstagram/images/briefcase.png" class="icon" alt="icones menu - expériences professionnelles"/></li>
-			<li><img src="/Users/chloe/Desktop/moncvinstagram/images/black-graduation-cap-tool-of-university-student-for-head.png" class="icon" alt="icones menu - formation"/></li>
-			<li><img src="/Users/chloe/Desktop/moncvinstagram/images/like.png" class="icon" alt="icones menu - centres d'intérêts"/></li>
-			<li><img src="/Users/chloe/Desktop/moncvinstagram/images/brain-and-head.png" class="icon" alt="icones menu - compétences"/></li>
-			<li><img src="/Users/chloe/Desktop/moncvinstagram/images/thought-bubble.png" class="icon" alt="icones menu - avis pro "/></li>
-			<li><img src="/Users/chloe/Desktop/moncvinstagram/images/download.png" class="icon" alt="icones menu - cv papier"/></li>
-			<li><img src="/Users/chloe/Desktop/moncvinstagram/images/envelope.png" class="icon" alt="icones menu - email"/></li>
-			<li><img src="/Users/chloe/Desktop/moncvinstagram/images/calendar-daily-page-on-day-31.png" class="icon" alt="icones menu - rendez-vous"/></li>
-		</ul>
-	</nav>
-		<section id="presentation">
-			<div id="presentationphoto">
-				<img class="photo" src="/Users/chloe/Desktop/moncvinstagram/images/photo profil insta.png"/>
+
+
+<!-- BARRE DE MENU -->
+	<section id="menu">
+		<nav class="navbar navbar-default" role="navigation">
+			 <div class="container-fluid">
+			 	<div class="navbar-header">
+      				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+		      		</button>
+
+			    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      		<ul class="nav navbar-nav">
+							<li><a href="#galerie" title="ma galerie photo"><img src="images/instagram-logo.png" class="icon" alt="icones menu - galerie photos"/></a></li>
+							<li id="identite" style="font-family:Cookie, cursive; font-size: 30px; color: #262626">Chloé Guiraud</li>
+							<li style="font-family:Cookie, cursive; font-size: 20px; color: #262626"><a href="#boutonexperience" title="expériences professionnelles">Mon expérience</a></li>
+							<li style="font-family:Cookie, cursive; font-size: 20px; color: #262626"><a href="#boutonformation" title="ma formation">Mes diplômes</a></li>
+							<li style="font-family:Cookie, cursive; font-size: 20px; color: #262626"><a href="#galerieligne2" title="mes centres d'intérêt">Mes passions</a></li>
+							<li style="font-family:Cookie, cursive; font-size: 20px; color: #262626"><a href="#boutoncompetences" title="mes compétences">Mes compétences</a></li>
+						</ul>
+					</div>
+				</div>	
 			</div>
-			<div id="presentationtexte">
-				<h2 style="font-family: Cookie, cursive; font-size: 70px">Chloé cherche un boulot</h2>
-					<div class="soustitre"> 10 expériences professionnelles</div>
-					<div class="soustitre"> 36 choses en têtes</div>
-					<div class="soustitre"> 6 traits de personnalité</div>
-				<p> ellellellellellellellellellellelle<br></br>llellellellellellellellellellellellelle</p>
+		</nav>
+	</section>
+
+<!-- FIN BARRE DE MENU -->
+
+<!-- BOUTONS POP-UP -->
+
+
+<div class="modal fade" id="image2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  	<div class="modal-dialog">
+    	<div class="modal-content">
+      		<div class="modal-header">
+        		<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
+        		<h4 class="modal-title" id="myModalLabel">Expériences professionnelles</h4>
+    		</div>
+
+<!-- POP-UP EXPERIENCE PROFESSIONNELLE -->
+    		<div class="modal-body">
+		        <p class="entete">Mars - Août 2016 : Assistante communication et marketing (5 mois)<br></br>COFEL, Paris</p>
+
+				<p>Elaboration des supports de communication RP et entretien des relations externes, élaboration de supports de communication interne, participation à la planification et l’optimisation de contenus numériques, aide à l’animation et la modération de la page Facebook, organisation de communication évènementielle (conventions BtoB), gestion de projet : élaboration et organisation du séminaire d’équipe interne.</p>
+
+
+				<p class="entete"><br></br>Juillet - Août 2015 : Assistante chef de projet ( 2 mois)<br></br>OUI STORY, Marly-le-Roi</p>
+
+				<p>Recherche et selection de prestataires (salle, traiteur, fleuriste, animateur...), demandes de devis et suivi du budget, rendez-vous et suivi client, organisation évènementielle.</p>
+
+				<p class="entete"><br></br>Juin – Juillet 2014: Assistante commerciale et marketing (2 mois)<br></br>TRADE MEDIA WEB, Boulogne
+
+				<p>Supervision et animation des outils de communication : site Internet, emailing..., gestion du planning, conception et suivi offre client, conception de campagnes de prospection, administration des ventes.</p>
+
+				<p class="entete"><br></br>Avril – Mai 2013: Assistante commerciale et marketing (2 mois)<br></br>DECATHLON, Béziers</p>
+
+				<p>Prospection clients, recherche de partenariats, communication interne et externe, retour et traitement des données, marketing du point de vente.</p>
+
+				<p class="entete"><br></br>Septembre 2012 – Mars 2013: Projet tutoré : évènementiel (7 mois)<br></br><em>IUT DE BEZIERS, Béziers</em></p>
+
+				<p>Gestion d’un projet tutoré : Elaboration étude de marché, recherche sponsors/partenaires, gestion du budget, prospection client, création supports de communication et entretien des relations externes.</p>
+      		</div>
+      		<div class="modal-footer">
+        		<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+      		</div>
+    	</div>
+  	</div>
+</div>
+<div class="modal fade" id="image1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  	<div class="modal-dialog">
+    	<div class="modal-content">
+      		<div class="modal-header">
+        		<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
+        		<h4 class="modal-title" id="myModalLabel">Compétences et connaissances</h4>
+    		</div>
+
+<!-- POP-UP COMPETENCES -->
+    		<div class="modal-body">
+				<p class="entete"> Langues :</p>
+				<p>Français : Langue natale</p>
+				<p>Anglais : Lu, écrit, parlé</p>
+				<p>Espagnol : Lu, écrit </p>
+
+				<p class="entete"><br></br>Informatique :</p>
+				<p>Pack Office : maîtrisé</p>
+				<p>Suite Adobe : Notions</p>
+				<p>HTML et CSS : Notions</p>
 			</div>
-			<div id="presentationbouton">
-				<img src="/Users/chloe/Desktop/moncvinstagram/images/bouton contact.png" class="bouton" alt="bouton presentation - m'envoyer un email"/>
-				<img src="/Users/chloe/Desktop/moncvinstagram/images/rencontrez moi.png" class="bouton" alt="bouton presentation - me rencontrer"/>
+			<div class="modal-footer">
+        		<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+      		</div>
+    	</div>
+  	</div>
+</div>
+<div class="modal fade" id="image3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  	<div class="modal-dialog">
+    	<div class="modal-content">
+      		<div class="modal-header">
+        		<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
+        		<h4 class="modal-title" id="myModalLabel">Formation</h4>
+    		</div>
+
+<!-- POP-UP FORMATION -->
+    		<div class="modal-body">
+    			<p class="entete"> 2013 - 2017 (espéré) : Institut Mines-TELECOM Ecole de management, Evry</p>
+    			<p><br></br><em>Diplôme d'Etudes Supérieures de Gestion en Management</em></p>
+    			<p>Cours suivis relatifs au management et aux technologies de l’information et de la communication. Acutellement en dernière année en master, spécialisation <strong>marketing digital</strong>.</p>
+    			<p class="entete"><br></br>2011 - 2013 : IUT de Béziers, Béziers</p>
+    			<p><br></br><em>Diplôme Universitaire Technologique en Techniques de Commercialisation</em></p>
+    			<p>Cours suivis relatifs à la gestion commerciale, option vin.</p>
+    		</div>
+    		<div class="modal-footer">
+        		<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+      		</div>
+    	</div>
+  	</div>
+</div>
+<div class="modal fade" id="bouton-quisuisje" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  	<div class="modal-dialog">
+    	<div class="modal-content">
+      		<div class="modal-header">
+        		<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
+        		<h4 class="modal-title" id="myModalLabel">Mon identité</h4>
+    		</div>
+    		<div class="modal-body">
+		        <p class="entete"><strong>Chloé Guiraud</strong></p>
+		        <p><em>23 ans</em></p><br></br>
+		        <p>75, rue des morillons</p>
+		        <p>75015 Paris</p>
+		        <p>06 26 83 12 52</p><br></br>
+		        <p>chloe.guiraud@telecom-em.eu</p>
+		        </div>
+    		<div class="modal-footer">
+        		<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+      		</div>
+    	</div>
+  	</div>
+</div>
+
+<!-- FIN BOUTONS POP_UP -->
+
+<!-- BANDEAU PRESENTATION -->
+	<section id="presentation">
+		<div class="container">
+  			<div class="row">
+    			<div class="col-md-3 presentationgauche">
+      				<img id="photoprofil" src="images/photo profil insta.png" class="img-responsive"/>
+    			</div> 
+    			<div class="col-md-6 presentationmilieu">
+       				<h2 style="font-family: Cookie, cursive; font-size: 70px">Chloé cherche un boulot</h2>
+						<div class="soustitre"> 10 expériences</div>
+						<div class="soustitre"> 36 choses en têtes</div>
+						<div class="soustitre"> 6 traits de personnalité</div>
+					<p class="paragraphe">Vous cherchez une alternante en webmarketing? Vous souhaitez du dynamisme et de la créativité? C'est parfait, je cherche un poste 😁</p>
+					<p><em>Oseriez-vous me contacter?</em></p>
+					<p>📩 chloe.guiraud@telecom-em.eu </p>
+					<p>
+						<a class="linkedin" href="https://www.linkedin.com/profile/preview?locale=fr_FR&trk=prof-0-sb-preview-primary-button">
+							<span>Mon profil Linkedin</span>
+						</a>
+					</p>
+    			</div>
+    			<div class="col-md-3 presentationdroite">
+    				<br></br>
+    				<a href="https://login.live.com/login.srf?wa=wsignin1.0&ct=1409066173&rver=6.1.6206.0&sa=1&ntprob=-1&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fmail.live.com%2F%3Fowa%3D1%26owasuffix%3Dowa%252f&id=64855&snsc=1&cbcxt=mail" class="bouton-mail" title="Envoyez un e-mail"> Oseriez-vous?
+    				</a>
+    				<br></br>
+    				<a href="http://www.lecalendrier.fr/" class="bouton-agenda" title="Planifier entretien"> Rencontrez-moi !</a>
+    				<br></br>
+    				<button class="bouton-quisuisje" id="bouton-quisuisje" data-toggle="modal" data-target="#bouton-quisuisje" ref="#bouton-quisuisje">
+    				<a id="bouton-quisuisje" class="bouton-quisuisje" title="Identité">Qui suis-je?</a>
+    			</div> 
+			</div> 
+		</div> 
+	</section>
+<!-- FIN BANDEAU PRESENTATION -->
+
+
+
+<!-- GALERIE PHOTOS -->
+<section id="galerie">
+	<section id="galerieligne1">
+		<div class="container">
+  			<div class="row">
+				<div class="col-md-4 photos">
+					<button class="boutoncompetences" id="boutoncompetences" data-toggle="modal" data-target="#image1" ref="#image1">
+						<img src="images/brain.jpg" id="image1" class="img-responsive" alt="image - competences"/>
+					</button>
+				</div>	
+				<div class="col-md-4 photos">
+					<button class="boutonexperience" id="boutonexperience" data-toggle="modal" data-target="#image2" ref="#image2">
+						<img src="images/work.jpeg" id="image2" class="img-responsive" alt="image - expérience"/>
+					</button>
+				</div>
+				<div class="col-md-4 photos">
+					<button class="boutonformation" id="boutonformation" data-toggle="modal" data-target="#image3" ref="#image3">
+						<img src="images/chapeau.jpg" id="image3" class="img-responsive" alt="image - formation"/></div>
+					</button>
+				</div>
 			</div>
-		<section id="galerie">
-		<!-- Insérer les photos qui vont bien à la place du texte -->
-			<div class="photos">Métro</div>
-			<div class="photos">Boulot</div>
-			<div class="photos">Dodo</div>
+		</div>
+	</section>
+	<section id="galerieligne2">
+		<div class="container">
+  			<div class="row">
+				<div class="col-md-4 photos"><img src="images/livres.png" id="image4" class="img-responsive" alt="image - centre d'intérêt"/></div>
+				<div class="col-md-4 photos"><img src="images/sunset.jpg" id="image5" class="img-responsive" alt="image - centre d'intérêt"/></div>
+				<div class="col-md-4 photos"><img src="images/cinema.jpeg" id="image6" class="img-responsive" alt="image - centre d'intérêt"/></div>
+			</div>
+		</div>
+	</section>
+	<section id="galerieligne3">
+		<div class="container">
+  			<div class="row">
+				<div class="col-md-4 photos"><img src="images/crayonscouleur.jpeg" id="image7" class="img-responsive" alt="image - centre d'intérêt"/></div>
+				<div class="col-md-4 photos"><img src="images/cerisier.jpeg" id="image8" class="img-responsive" alt="image - centre d'intérêt"/></div>
+				<div class="col-md-4 photos"><img src="images/legumes.jpeg" id="image9" class="img-responsive" alt="image - centre d'intérêt"/></div>
+			</div>
+		</div>
+	</section>
+</section>
+<!-- FIN GALERIE PHOTOS -->
+
+
+<!-- FOOTER -->
+
+	<footer>
+		<section id="footer">
+			<div class="container">
+  				<div class="row">
+    				<div class="col-md-12">
+						<ul>
+							<li class="facebookpage">
+								<a href="https://www.facebook.com/chloe.guiraud.1" title="ma page Facebook">
+									<img src="images/Facebookicon.png" id="icon footer fb" class="img-responsive" alt="icone - facebook"/>
+								</a>
+							</li>
+							<li class="instagrampage">
+								<a href="https://www.instagram.com/_chlota_/" title="ma page Instagram">
+									<img src="images/instagramicon.png" id="icon footer instagram" class="img-responsive" alt="icone - instagram"/>
+								</a>
+							</li>
+							<li class="linkedinpage">
+								<a href="" title="ma page linkedin">
+									<img src="images/Linkedinicon.png" id="icon footer linkedin" class="img-responsive" alt="icone - linkedin"/>
+								</a>
+							</li>
+							<li class="footercoupsdecoeur">
+								<a href="http://www.fortmcmoney.com" title="mes coups de coeur">
+									<img src="images/coeur.png" id="icon footer coup de coeur" class="img-responsive" alt="icone - coeur"/>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+<!-- FORMULAIRE FOOTER -->
+			<form>
+				<div class="container">
+					<div class="row">
+			  			<div class="form-group">
+						    <label for="email">Votre adresse email:</label>
+						    <input type="email" class="form-control" id="email">
+			  			</div>
+			  			<div class="form-group">
+			   				 <label for="message">Votre message:</label>
+			   				 <input type="message" class="form-control" id="message">
+			  			</div>
+			  			<div class="form-group">
+			 			  <button type="envoyer" class="btn btn-default">Envoyer</button>
+			 			</div>
+			 		</div>
+			 	</div>
+			</form>
 		</section>
+	</footer>
+<!-- FIN FORMULAIRE FOOTER -->
+<!-- FIN FOOTER -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
 </body>
+</html>
